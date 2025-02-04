@@ -1,0 +1,51 @@
+.card{
+    width: 15rem;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    background: white;
+    border: 6px solid #FFA500;
+    border-radius: 20px;
+    padding: 0px 20px 16px 20px;
+}
+
+.card-span{
+font-size: larger;
+}
+
+.card-p{
+    color: gray;
+    font-size: 16px;
+}
+
+.c-button{
+    background-color: #fca61f73;
+    border: 2px solid #fca61f73;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: black;
+    display: inline-block;
+    font-weight: 600;
+    font-size:larger;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;  
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.c-button:hover{
+background-color: white;
+}
+
+.c-button:active{
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
