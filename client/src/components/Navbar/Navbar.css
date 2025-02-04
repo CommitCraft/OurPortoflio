@@ -36,7 +36,7 @@
 }
 .n-list>ul:hover{
     cursor: pointer;
-    color: aqua;
+    color: rgb(255, 196, 0);
 }
 .n-button{
     flex: 2;
