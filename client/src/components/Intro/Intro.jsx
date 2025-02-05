@@ -17,7 +17,8 @@ import {motion} from "framer-motion";
 
 const Intro = () => {
   return (
-    <div className='Intro' id='Intro'>
+    <>
+      <div className='Intro' id='Intro'>
       <div className='i-left'>
         <div className='i-name'>
           <span>Hi I am </span>
@@ -37,6 +38,7 @@ const Intro = () => {
         <img src={Profile} alt='profile' />
       </div>
     </div>
+    </>
   );
 }
 
