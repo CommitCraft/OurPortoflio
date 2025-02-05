@@ -1,7 +1,7 @@
-import React from 'react'
-import './FlotingDiv.css'
+import React from 'react';
+import './FloatingDiv.css';
 
-function FlotingDiv({img, text1, text2}) {
+function FloatingDiv({img, text1, text2}) {
   return (
     <div className='floatingDiv'>
         <img src={img} alt='image' />
@@ -14,4 +14,4 @@ function FlotingDiv({img, text1, text2}) {
   )
 }
 
-export default FlotingDiv
+export default FloatingDiv;

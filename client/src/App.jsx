@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import FlotingDiv from "./components/FloatingDiv/FloatingDiv";
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Footer from "./components/Footer/Footer";
@@ -9,8 +10,9 @@ function App() {
     <div>
       <Navbar />
       <Intro />
-      <Services/>
-      <Footer />
+<FlotingDiv/>
+      {/* <Services/> */}
+      {/* <Footer /> */}
     </div>
   );
 }
