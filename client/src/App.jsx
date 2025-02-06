@@ -10,8 +10,8 @@ function App() {
     <div>
       <Navbar />
       <Intro />
-<FlotingDiv/>
-      {/* <Services/> */}
+
+      <Services/>
       {/* <Footer /> */}
     </div>
   );

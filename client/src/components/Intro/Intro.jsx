@@ -63,8 +63,8 @@ const Intro = () => {
           <img src={Imogi} alt="" style={{ marginTop: "70px" }} />
 
           <motion.div
-            initial={{ top: "-4%", left: "74%" }}
-            whileInView={{ left: "68%" }}
+            initial={{ top: "-4%", left: "54%" }}
+            whileInView={{ left: "48%" }}
             transition={transition}
             className="floating-div"
           >
@@ -96,6 +96,9 @@ const Intro = () => {
           >
             <FloatingDiv img={thumbup} text1="Best Design" text2="Award" />
           </motion.div>
+
+
+
           <div
             className="blur"
             style={{ background: "rgb(238 210 255)" }}
