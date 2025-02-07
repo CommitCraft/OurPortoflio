@@ -1,0 +1,32 @@
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+    flex-direction: column;
+}
+
+.circle{
+    width:100px;
+    height:100px;
+    background-color:red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.text{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 100%;
+    font-size:  30px;
+    font-weight: bold;
+}
