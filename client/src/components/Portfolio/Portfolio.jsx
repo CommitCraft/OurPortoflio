@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Sidebar from "../../img/Sidebar.png";
+import Sidebar from "../../img/sidebar.png";
 import "swiper/css"
 import Ecommerce from "../../img/ecommerce.png";
 import Hoc from "../../img/hoc.png";
