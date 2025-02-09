@@ -8,7 +8,7 @@ import Services from "./components/services/Services";
 import Work from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonial/Testimonial";
-import Contact from "./components/Contact/contact";
+import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div>
